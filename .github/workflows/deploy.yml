@@ -21,4 +21,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Deploy to S3
-        run: aws s3 sync build/ s3://github-actions-ci-cd-123/ --delete --sse AES256
+        run: aws s3 sync dist/ s3://github-actions-ci-cd-123/ --delete --sse AES256
