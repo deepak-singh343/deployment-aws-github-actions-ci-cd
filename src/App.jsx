@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  return <>learn aws github actions ci cd..</>;
+  return <>learn aws github actions ci cd</>;
 }
 
 export default App;
